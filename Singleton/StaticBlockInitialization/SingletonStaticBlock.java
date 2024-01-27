@@ -1,3 +1,4 @@
+package StaticBlockInitialization;
 public class SingletonStaticBlock {
     private static SingletonStaticBlock instance;
 

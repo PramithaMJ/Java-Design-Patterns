@@ -1,3 +1,4 @@
+package StaticBlockInitialization;
 public class SingletonStaticBlockTest {
 
     public static void main(String [] arg){

@@ -1,3 +1,5 @@
+package EagerInitialize;
+
 public SingletonEagerTest{
     public static void main(String[]args){
         SingletonEager eagerInstance1=SingletonEager.getEagerInstance();
