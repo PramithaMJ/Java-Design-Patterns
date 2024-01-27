@@ -1,11 +1,11 @@
 package Open_Close_Principle;
 
 public class PersistanceManager {
-    BookPersistence bookPersistence;
+    //BookPersistence bookPersistence;
     InvoicePercistence invoicePercistence;
 
-    public PersistanceManager(InvoicePercistence invoicePercistence, BookPersistence bookPersistence) {
+    public PersistanceManager(InvoicePercistence invoicePercistence) {
         this.invoicePercistence = invoicePercistence;
-        this.bookPersistence = bookPersistence;
+      //  this.bookPersistence = bookPersistence;
     }
 }
