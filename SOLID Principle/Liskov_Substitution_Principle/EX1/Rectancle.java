@@ -1,3 +1,4 @@
+package Liskov_Substitution_Principle.EX1;
 /**
  * Rectancle
  */

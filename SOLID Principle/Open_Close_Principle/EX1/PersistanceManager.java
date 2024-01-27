@@ -1,4 +1,4 @@
-package Open_Close_Principle;
+package Open_Close_Principle.EX1;
 
 public class PersistanceManager {
     //BookPersistence bookPersistence;

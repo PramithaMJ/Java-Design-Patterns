@@ -1,4 +1,4 @@
-package Open_Close_Principle;
+package Open_Close_Principle.EX1;
 
 class Invoice{
     private Book book;

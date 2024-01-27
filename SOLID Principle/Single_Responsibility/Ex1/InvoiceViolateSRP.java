@@ -1,4 +1,4 @@
-package Single_Responsibility;
+package Single_Responsibility.Ex1;
 /*
  * This class is responsible for creating invoices and saving them to a file.
  * It is also responsible for calculating the total price of the invoice.

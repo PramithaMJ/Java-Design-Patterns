@@ -1,4 +1,4 @@
-package Single_Responsibility;
+package Single_Responsibility.Ex1;
 
 public class InvoicePercistence {
     Invoice invoice;

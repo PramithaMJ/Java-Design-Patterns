@@ -1,4 +1,4 @@
-package Open_Close_Principle;
+package Open_Close_Principle.EX1;
 /*
  * In Open Close Principle, 
  * we have to make sure that we can extend our classes without modifying them.
