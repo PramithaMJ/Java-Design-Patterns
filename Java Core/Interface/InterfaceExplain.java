@@ -15,12 +15,28 @@ interface A {
     void config();
 }
 
+// class to class -> extends
+// class to interface -> implements
+// interface to interface -> extends
+
+/**
+ * X
+ */
+interface X {
+
+    void run();
+}
+
+interface Y extends X {
+
+}
+
 /**
  * B
  * implements is used to implement interface
  * 
  */
-class B implements A {
+class B implements A, X {
 
     @Override
     public void show() {
@@ -30,6 +46,11 @@ class B implements A {
     @Override
     public void config() {
         System.out.println("Config");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Run");
     }
 
 }
@@ -44,8 +65,12 @@ public class InterfaceExplain {
         A obj = new B();
         obj.show();
         obj.config();
+        // obj.run();// error because run is not in A interface
+
+        X obj1 = new B();
+        obj1.run();
 
         System.out.println(A.a);
-        //A.a = 6; // error because a is final
+        // A.a = 6; // error because a is final
     }
 }
